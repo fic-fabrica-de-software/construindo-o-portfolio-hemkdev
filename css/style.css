@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #d9d9d9;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+#ul1 {
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    gap: 20rem;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: large;
+}
+
+.navbar a:hover {
+    text-decoration: line-through;
+}
