@@ -10,16 +10,25 @@ body {
     background-color: #d9d9d9;
 }
 
+.rodape {
+    display: flex;
+}
 .navbar {
     padding: 1rem;
 }
 
-.navbar ul {
+#ul1 {
     list-style: none;
     display: flex;
-    justify-content:center;
+    justify-content:flex-start;
     gap: 20rem;
+}
 
+#ul2 {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 20rem;
 }
 
 .navbar a {
