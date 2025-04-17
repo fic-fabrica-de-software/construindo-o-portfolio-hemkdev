@@ -12,6 +12,7 @@ body {
 
 .rodape {
     display: flex;
+    justify-content: space-between;
 }
 .navbar {
     padding: 1rem;
@@ -26,9 +27,9 @@ body {
 
 #ul2 {
     list-style: none;
-    display: flex;
     justify-content: end;
     gap: 20rem;
+    padding-right: 100px;
 }
 
 .navbar a {
