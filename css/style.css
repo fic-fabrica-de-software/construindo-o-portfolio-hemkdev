@@ -10,7 +10,7 @@ body {
     background-color: #d9d9d9;
 }
 
-.rodape {
+.cabecalho {
     display: flex;
     justify-content: space-between;
 }
@@ -40,4 +40,14 @@ body {
 
 .navbar a:hover {
     text-decoration: line-through;
+}
+
+.mainIMG {
+    
+}
+
+.mainIMG img {
+    height: 500px;
+    width: 400px;
+    margin: 0;
 }
