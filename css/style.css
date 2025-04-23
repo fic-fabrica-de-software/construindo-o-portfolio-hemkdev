@@ -16,3 +16,26 @@ body {
 }
 
 /* cabeçalho */
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0 40px;
+}
