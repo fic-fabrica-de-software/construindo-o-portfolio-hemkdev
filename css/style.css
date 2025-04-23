@@ -6,7 +6,13 @@
 }
 
 body {
-    line-height: 1.6;
-    background-color: #d9d9d9;
+    background-color: #000000;
+    height: 100vh;
 }
 
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* cabeçalho */
