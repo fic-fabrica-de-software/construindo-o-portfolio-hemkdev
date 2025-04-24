@@ -1,4 +1,4 @@
-/*geral*/
+/* geral */
 * {
     margin: 0;
     padding: 0;
@@ -12,11 +12,14 @@ body {
 }
 
 .interface {
-    max-width: 1280px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 
-/* cabeçalho */
+.flex {
+    display: flex;
+}
+/* header */
 header {
     padding: 40px 4%;
 }
@@ -29,6 +32,7 @@ header > .interface {
     display: flex;
     align-items: center;
     justify-content:space-between;
+    border-bottom: 0.5px solid #cdcdcd;
 }
 
 header a {
@@ -50,4 +54,27 @@ header nav ul {
 header nav ul li {
     display: inline;
     padding: 0 40px;
+}
+
+/* main top */
+section .top {
+    padding: 40px 4%;
+
+}
+
+section .top .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.top h1 {
+    color: white;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.top .txt-top p {
+    color: #ffffff;
+    margin: 40px 0;
 }
