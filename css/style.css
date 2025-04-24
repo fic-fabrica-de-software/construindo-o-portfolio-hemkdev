@@ -11,8 +11,13 @@ body {
     height: 100vh;
 }
 
-.interface {
+.nav-interface {
     max-width: 1920px;
+    margin: 0 auto;
+}
+
+.interface {
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -28,7 +33,7 @@ header .titulo span{
     padding: 10px;
 }
 
-header > .interface {
+header > .nav-interface {
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -59,7 +64,6 @@ header nav ul li {
 /* main top */
 section .top {
     padding: 40px 4%;
-
 }
 
 section .top .flex {
@@ -77,4 +81,9 @@ section .top .flex {
 .top .txt-top p {
     color: #ffffff;
     margin: 40px 0;
+}
+
+.top .img-top img {
+    height: 300px;
+
 }
