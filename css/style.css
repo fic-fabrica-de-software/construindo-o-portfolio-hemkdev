@@ -1,4 +1,4 @@
-/* geral */
+/* GERAL */
 * {
     margin: 0;
     padding: 0;
@@ -16,15 +16,21 @@ body {
     margin: 0 auto;
 }
 
-.interface {
-    max-width: 1280px;
+.top-interface {
+    max-width: 1920px;
     margin: 0 auto;
+}
+
+.bout-interface{
+    max-width: 100%;
+    margin: 0 auto; 
 }
 
 .flex {
     display: flex;
 }
-/* header */
+
+/* HEADER */
 header {
     padding: 40px 4%;
 }
@@ -61,25 +67,30 @@ header nav ul li {
     padding: 0 40px;
 }
 
-/* main top */
-section .top {
+/* MAIN TOP */
+section .container-top {
     padding: 40px 4%;
 }
 
-section .top .flex {
+section .container-top .flex {
     align-items: center;
     justify-content: center;
     gap: 90px;
 }
 
-.top h1 {
+.container-top h1 {
     padding: 10px;
     color: rgb(0, 0, 0);
     font-size: 55px;
     line-height: 40px;
 }
 
-.top .text-top p {
+.container-top .text-top {
+    margin-top: 10%;
+}
+
+.container-top .text-top p {
     color: #565656;
     margin: 40px 0;
 }
+
