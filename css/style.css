@@ -73,17 +73,18 @@ section .top .flex {
 }
 
 .top h1 {
-    color: white;
-    font-size: 35px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    font-family: monospace;
     line-height: 40px;
 }
 
 .top .txt-top p {
-    color: #ffffff;
+    color: #565656;
     margin: 40px 0;
 }
 
 .top .img-top img {
-    height: 300px;
 
 }
