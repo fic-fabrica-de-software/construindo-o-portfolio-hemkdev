@@ -86,11 +86,11 @@ section .container-top .flex {
 }
 
 .container-top .text-top {
-    margin-top: 10%;
+    margin: 10%
 }
 
 .container-top .text-top p {
     color: #565656;
-    margin: 40px 0;
+
 }
 
