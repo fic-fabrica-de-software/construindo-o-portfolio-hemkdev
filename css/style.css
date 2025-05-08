@@ -68,14 +68,12 @@ header nav ul li {
 }
 
 /* MAIN TOP */
-section .container-top {
-    padding: 40px 4%;
-}
 
-section .container-top .flex {
+section .container-top {
     align-items: center;
     justify-content: center;
     gap: 90px;
+    padding: 40px 4%;
 }
 
 .container-top h1 {
@@ -94,7 +92,12 @@ section .container-top .flex {
 
 }
 
-/* Blur */
+.img-top {
+    height: fit-content;
+    margin: auto 20%;
+
+}
+
 .img-top figure img {
     -webkit-filter: blur(0);
     filter: blur(0);
@@ -104,4 +107,10 @@ section .container-top .flex {
 	filter: blur(3px);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+}
+
+/* MAIN ABOUT */
+
+.container-about {
+    margin-top: 20%;
 }
