@@ -69,10 +69,10 @@ header nav ul li {
 
 /* MAIN TOP */
 
-section .container-top {
+.container-top {
     align-items: center;
     justify-content: center;
-    gap: 90px;
+    gap: 10px;
     padding: 40px 4%;
 }
 
@@ -80,7 +80,13 @@ section .container-top {
     padding: 10px;
     color: rgb(0, 0, 0);
     font-size: 55px;
-    line-height: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.container-top span {
+    font-size: 15px;
+    
 }
 
 .container-top .text-top {
@@ -107,10 +113,17 @@ section .container-top {
 	filter: blur(3px);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+    cursor: grab;
 }
 
 /* MAIN ABOUT */
 
 .container-about {
     margin-top: 20%;
+    text-align: center;
+}
+
+.container-about h1 {
+    font-size: 65px;
+    font-style: italic; 
 }
