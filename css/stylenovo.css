@@ -455,13 +455,13 @@ section {
     box-shadow: var(--shadow-hover);
 }
 
-.work-image {
+.work-img {
     position: relative;
     height: 250px;
     overflow: hidden;
 }
 
-.work-image img {
+.work-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -488,4 +488,21 @@ section {
 
 .work-item:hover .work-image img {
     transform: scale(1.1);
+}
+
+.work-info {
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
+
+.work-titulo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.work-descricao {
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
 }
