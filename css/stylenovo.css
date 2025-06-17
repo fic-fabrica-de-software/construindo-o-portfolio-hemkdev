@@ -536,3 +536,34 @@ section {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
 }
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contact-icon {
+    font-size: 2rem;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 50%;
+    box-shadow: var(--shadow);
+    color: var(--text-dark);
+}
+
+.contact-detalhes h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: var(--text-dark);
+}
+
+.contact-detalhes p {
+    color: var(--text-light);
+}
