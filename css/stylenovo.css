@@ -481,3 +481,11 @@ section {
     opacity: 0;
     transition: var(--transition);
 }
+
+.work-item:hover .work-overlay {
+    opacity: 1;
+}
+
+.work-item:hover .work-image img {
+    transform: scale(1.1);
+}
