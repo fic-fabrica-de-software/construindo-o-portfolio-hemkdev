@@ -11,6 +11,10 @@ body {
     height: 100vh;
 }
 
+.flex {
+    display: flex;
+}
+
 .nav-interface {
     max-width: 1920px;
     margin: 0 auto;
@@ -24,10 +28,6 @@ body {
 .bout-interface{
     max-width: 1920px;
     margin: 0 auto; 
-}
-
-.flex {
-    display: flex;
 }
 
 /* HEADER */
