@@ -382,3 +382,29 @@ section {
     width: 0;
     transition: width 1s ease-in-out;
 }
+
+.about-stats {
+    display: grid;
+    gap: 2rem;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.stat-num {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+}
+
+.stat-title {
+    color: var(--text-light);
+    font-weight: 500;
+}
