@@ -19,17 +19,17 @@ body {
 
 /* Variáveis*/
 :root {
-    --primary-color: #6366f1;
-    --secondary-color: #1a1a1a;
-    --accent-color: #f59e0b;
-    --text-light: #6b7280;
-    --text-dark: #1a1a1a;
-    --bg-light: #f9fafb;
+    --primary-color: #000000;
+    --secondary-color: #666666;
+    --accent-color: #999999;
+    --text-light: #666666;
+    --text-dark: #000000;
+    --bg-light: #f5f5f5;
     --bg-white: #ffffff;
-    --border-color: #e5e7eb;
-    --shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    --shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.15);
-    --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --border-color: #cccccc;
+    --shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    --shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.20);
+    --gradient: linear-gradient(135deg, #e8e8e8 0%, #f5f5f5 100%);
     --border-radius: 12px;
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -214,13 +214,6 @@ body {
 
 .top-line {
     display: block;
-}
-
-.top-line.final {
-    background: var(--gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 
 .top-descricao {
