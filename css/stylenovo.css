@@ -336,3 +336,49 @@ section {
     margin-bottom: 1.5rem;
     line-height: 1.7;
 }
+
+.skills {
+    margin-top: 2rem;
+}
+
+.skills-titulo {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: var(--text-dark);
+}
+
+.skills-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.skill-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.skill-nome {
+    font-weight: 500;
+    color: var(--text-dark);
+    min-width: 120px;
+}
+
+.skill-barra {
+    flex: 1;
+    height: 8px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    margin-left: 1rem;
+    overflow: hidden;
+}
+
+.skill-progresso {
+    height: 100%;
+    background: linear-gradient(90deg, #333333 0%, #666666 100%);
+    border-radius: 4px;
+    width: 0;
+    transition: width 1s ease-in-out;
+}
