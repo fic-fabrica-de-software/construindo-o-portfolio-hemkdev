@@ -525,3 +525,14 @@ section {
 .work-link:hover {
     background: rgba(255, 255, 255, 0.2);
 }
+
+/* Contact Section */
+.contact {
+    background: var(--bg-light);
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
