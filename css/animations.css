@@ -212,8 +212,8 @@
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-    transition: left 0.5s ease;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.411), transparent);
+    transition: left 0.9s ease;
 }
 
 .btn:hover::before {
@@ -287,33 +287,14 @@
 }
 
 /* Animações de micro-interações */
-.nav-link {
-    position: relative;
-}
-
-.nav-link::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: -10px;
-    width: 0;
-    height: 2px;
-    background: var(--text-dark);
-    transform: translateY(-50%);
-    transition: width 0.3s ease;
-}
-
-.nav-link:hover::before {
-    width: 8px;
-}
 
 .contact-icon {
-    transition: all 0.3s ease;
+    transition: all 0.9s ease;
 }
 
 .contact-item:hover .contact-icon {
-    transform: scale(1.1) rotate(5deg);
-    background: var(--text-dark);
+    transform: scale(1.3) rotate(360deg);
+    background: var(--text-light);
     color: white;
 }
 
