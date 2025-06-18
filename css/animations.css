@@ -144,7 +144,7 @@
     animation: pulse 2s ease-in-out infinite;
 }
 
-/* Estados iniciais para animações */
+/* Animação do scroll */
 .animate-on-scroll {
     opacity: 0;
     transform: translateY(30px);
@@ -156,3 +156,45 @@
     transform: translateY(0);
 }
 
+/* Animações específicas para elementos */
+.top-title .top-line {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.top-title .top-line:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.top-title .top-line:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.top-title .top-line:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.top-descricao {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease-out 0.8s forwards;
+}
+
+.top-cta {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease-out 1s forwards;
+}
+
+.pfp-img {
+    opacity: 0;
+    transform: scale(0.8);
+    animation: scaleIn 1s ease-out 0.5s forwards;
+}
+
+.img-deco {
+    opacity: 0;
+    transform: scale(0.8) rotate(-10deg);
+    animation: rotateIn 1.2s ease-out 0.7s forwards;
+}
