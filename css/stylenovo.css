@@ -702,3 +702,30 @@ section {
         justify-content: center;
     }
 }
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .top-cta {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .works-filtro {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .filtro-btn {
+        width: 200px;
+    }
+}
+
+
