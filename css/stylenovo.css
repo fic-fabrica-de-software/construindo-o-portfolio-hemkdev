@@ -634,7 +634,7 @@ section {
 }
 
 .footer-links a:hover {
-    color: #000000;
+    color: var(--bg-light);
 }
 
 .footer-bottom {
