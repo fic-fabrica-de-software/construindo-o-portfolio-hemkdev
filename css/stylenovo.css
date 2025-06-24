@@ -20,7 +20,7 @@ body {
 /* Variáveis*/
 :root {
     --primary-color: #000000;
-    --secondary-color: #4f46e5;
+    --secondary-color: #83689c;
     --accent-color: #999999;
     --text-light: #666666;
     --text-dark: #000000;
@@ -60,7 +60,7 @@ body {
 }
 
 .btn-primary:hover {
-    background: #4f46e5;
+    background: var(--secondary-color);
     transform: translateY(-2px);
     box-shadow: var(--shadow-hover);
 }
@@ -87,8 +87,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(7px);
     z-index: 1000;
     padding: 1rem 0;
     transition: var(--transition);
@@ -173,7 +172,7 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    background: linear-gradient(135deg, #fcfaf8 0%, #ebddf8 100%);
     overflow: hidden;
 }
 
@@ -473,7 +472,7 @@ section {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(59, 59, 59, 0.85);
     display: flex;
     align-items: center;
     justify-content: center;
