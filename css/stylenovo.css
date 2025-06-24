@@ -72,9 +72,10 @@ body {
 }
 
 .btn-secondary:hover {
-    background: var(--text-dark);
-    color: white;
-    border-color: var(--text-dark);
+    background: var(--bg-light);
+    color: rgb(0, 0, 0);
+    transform: translateY(-2px);
+    border-color: var(--bg-light);
 }
 
 .btn-full {
@@ -172,7 +173,7 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    background: linear-gradient(135deg, #fcfaf8 0%, #ebddf8 100%);
+    background: linear-gradient(0deg, var(--bg-light) 0%, #ebddf8 70%);
     overflow: hidden;
 }
 
@@ -429,9 +430,11 @@ section {
 
 .filtro-btn.active,
 .filtro-btn:hover {
-    background: var(--text-dark);
-    border-color: var(--text-dark);
+    background: var(--text-light);
+    border-color: var(--bg-light);
     color: white;
+    transform: translateX(4px);
+    transform: scale(1.1);
 }
 
 .works-grid {
