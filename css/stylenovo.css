@@ -68,7 +68,7 @@ body {
 .btn-secondary {
     background: transparent;
     color: var(--text-dark);
-    border: 2px solid var(--border-color);
+    border: 2px solid var;
 }
 
 .btn-secondary:hover {
