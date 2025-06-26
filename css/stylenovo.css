@@ -173,7 +173,7 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    background: linear-gradient(0deg, var(--bg-light) 0%, #ebddf8 70%);
+    background: linear-gradient(0deg, var(--bg-light) 0%, #b4b4b4 70%);
     overflow: hidden;
 }
 
@@ -184,8 +184,8 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('../assets/') center/cover;
-    opacity: 0.05;
+    background-image: linear-gradient(to bottom, transparent 50%, var(--bg-light) 95%), url('../src/img/birmingham-museums-trust-5EUh-tq31eA-unsplash.jpg');
+    opacity: 0.2;
     z-index: 1;
 }
 
@@ -254,11 +254,11 @@ body {
 
 .img-deco {
     position: absolute;
-    top: -20px;
-    left: -20px;
-    right: -20px;
-    bottom: -20px;
-    background: var(--gradient);
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -10px;
+    background: var(--bg-light);
     border-radius: 50%;
     z-index: 1;
     opacity: 0.1;
